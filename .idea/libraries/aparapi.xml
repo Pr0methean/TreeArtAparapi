@@ -1,0 +1,47 @@
+<component name="libraryTable">
+  <library name="aparapi">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Downloads/aparapi" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$USER_HOME$/Downloads/aparapi/api" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/com.amd.aparapi/doc/api" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$USER_HOME$/Downloads/aparapi" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/aparapi/samples/add/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi/samples/blackscholes/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi/samples/convolution/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi/samples/extension/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi/samples/info/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi/samples/life/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi/samples/mandel/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi/samples/mdarray/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi/samples/median/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi/samples/squares/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/com.amd.aparapi/src/java" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/examples/correlation-matrix/src/java" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/examples/correlation-matrix/src/test" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/examples/effects/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/examples/javaonedemo/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/examples/movie/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/examples/nbody/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/examples/oopnbody/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/samples/add/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/samples/blackscholes/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/samples/convolution/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/samples/extension/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/samples/info/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/samples/life/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/samples/mandel/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/samples/mdarray/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/samples/median/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/samples/squares/src" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/test/codegen/src/java" />
+      <root url="file://$USER_HOME$/Downloads/aparapi-1.0.0-SNAPSHOT/test/runtime/src/java" />
+    </SOURCES>
+    <jarDirectory url="file://$USER_HOME$/Downloads/aparapi" recursive="false" />
+  </library>
+</component>

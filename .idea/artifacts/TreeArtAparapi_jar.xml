@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TreeArtAparapi:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TreeArtAparapi_jar</output-path>
+    <root id="archive" name="TreeArtAparapi.jar">
+      <element id="module-output" name="TreeArtAparapi" />
+      <element id="directory" name="META-INF">
+        <element id="dir-copy" path="$PROJECT_DIR$/src/META-INF" />
+      </element>
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/aparapi/aparapi.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
