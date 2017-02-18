@@ -1,9 +1,9 @@
-# FIXME: Project structure
 lib/
 libsrc/
 OldOutput/
 out/
 target/
+Image*.png
 
 # Windows image file caches
 Thumbs.db

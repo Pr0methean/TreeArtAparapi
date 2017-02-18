@@ -7,7 +7,8 @@ import org.apache.commons.pool2.impl.DefaultPooledObject;
 import org.apache.commons.pool2.impl.GenericObjectPool;
 
 public class Negative extends UnaryOperator {
-    private static final ObjectPool<OperatorKernel> KERNEL_POOL = new GenericObjectPool<>(new BasePooledObjectFactory<OperatorKernel>() {
+    private static final ObjectPool<OperatorKernel> KERNEL_POOL =
+        new GenericObjectPool<>(new BasePooledObjectFactory<OperatorKernel>() {
         @Override
         public OperatorKernel create() throws Exception {
             return new NegationKernel();

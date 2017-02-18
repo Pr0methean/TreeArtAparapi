@@ -14,7 +14,7 @@ public abstract class Operator {
 
     static {
         POOL_CONFIG.setMaxWaitMillis(100_000);
-        POOL_CONFIG.setMaxTotal(64);
+        POOL_CONFIG.setMaxTotal(8);
         POOL_CONFIG.setBlockWhenExhausted(true);
     }
 	private final ObjectPool<OperatorKernel> kernelPool;
@@ -49,7 +49,7 @@ public abstract class Operator {
                 throw new RuntimeException(e);
             }
             for (Operator inputOp : inputOps) {
-                inputOp.getOutput();
+                operandStack.push(inputOp.getOutput());
             }
             popInputs();
             kernel.init(inputs, pixels, signum);
@@ -65,9 +65,12 @@ public abstract class Operator {
                 throw new RuntimeException(e);
             }
         }
+        return output;
+        /*
         float[] outputCopy = new float[pixels];
         System.arraycopy(output, 0, outputCopy, 0, pixels);
 		return outputCopy;
+		*/
 	}
 
     /**

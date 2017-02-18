@@ -1,6 +1,6 @@
 package com.google.users.polymorpheus.experimental.arttree.util;
 
-import com.amd.aparapi.Config;
+import com.aparapi.Config;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 import java.util.logging.Level;

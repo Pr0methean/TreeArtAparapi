@@ -1,7 +1,7 @@
 package com.google.users.polymorpheus.experimental.arttree.util;
 
-import com.amd.aparapi.Config;
-import com.amd.aparapi.Kernel;
+import com.aparapi.Config;
+import com.aparapi.Kernel;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

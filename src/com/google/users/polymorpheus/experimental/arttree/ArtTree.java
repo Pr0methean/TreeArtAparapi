@@ -6,9 +6,9 @@ import java.util.Random;
 
 public class ArtTree {
 
-	private static final int IMAGE_WIDTH = 101;//2001;
-	private static final int IMAGE_HEIGHT = 101;//2001;
-	private static final int NUM_IMAGES = 100;
+	private static final int IMAGE_WIDTH = 2001;
+	private static final int IMAGE_HEIGHT = 2001;
+	private static final int NUM_IMAGES = 1000;
 
 	private static String nameImageFile(int imageNum) {
 		return String.format("Image%d.png", imageNum);

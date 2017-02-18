@@ -16,6 +16,5 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="lib/aparapi.jar" sourcepath="libsrc/com.amd.aparapi/src"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
